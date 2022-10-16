@@ -15,3 +15,15 @@ else
     Console.WriteLine("No");
 }
 */
+/* Задача 2
+Console.Write("Input a positive integer number: ");
+int n = Convert.ToInt32(Console.ReadLine());
+
+int current = -n;
+
+while(current <= n)
+{
+    Console.Write(current + " ");
+    current++;
+}
+*/
