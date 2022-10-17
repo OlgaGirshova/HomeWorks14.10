@@ -1,29 +1,16 @@
-﻿/* Задача 1
-Console.Write("Input a first number: ");
-int n1 = Convert.ToInt32(Console.ReadLine());
-Console.Write("Input a second number: ");
-int n2 = Convert.ToInt32(Console.ReadLine());
+﻿/*
+//Домашнее задание, Задача 2: Напишите программу, которая на вход принимает два числа и выдаёт, какое число большее, а какое меньше
+Console.Write("Input first number: ");
+int a = Convert.ToInt32(Console.ReadLine());
+Console.Write("Input second number: ");
+double b = Convert.ToInt32(Console.ReadLine());
 
-int quad2  = n2 * n2;
-
-if (n1 == quad2)
+if(a > b)
 {
-    Console.WriteLine("Yes");
+    Console.WriteLine("Max");
 }
 else
 {
-    Console.WriteLine("No");
-}
-*/
-/* Задача 2
-Console.Write("Input a positive integer number: ");
-int n = Convert.ToInt32(Console.ReadLine());
-
-int current = -n;
-
-while(current <= n)
-{
-    Console.Write(current + " ");
-    current++;
+    Console.WriteLine("Min");
 }
 */
