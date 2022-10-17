@@ -14,3 +14,23 @@ else
     Console.WriteLine("Min");
 }
 */
+/*
+
+// Задача 4.Написать прогрпмму, которая принимает на вход три числа и выдает максимальное
+Console.Write("Input a first number ");
+int a = Convert.ToInt32(Console.ReadLine());
+Console.Write("Input a second number ");
+int b = Convert.ToInt32(Console.ReadLine());
+Console.Write("Input a thrd number ");
+int c = Convert.ToInt32(Console.ReadLine());
+int max = a;
+if (b > max)
+{
+    max = b;
+}
+if (c > max)
+{
+    max = b;
+}
+Console.WriteLine($"max number is {max}");
+*/
