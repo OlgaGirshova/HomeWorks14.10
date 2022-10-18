@@ -34,3 +34,17 @@ if (c > max)
 }
 Console.WriteLine($"max number is {max}");
 */
+/*
+//Задача 6.Написать программу,которая на вход принимает число и выдает,яыляется лио но четным
+
+Console.Write("Input a number ");
+int a = Convert.ToInt32(Console.ReadLine());
+if (a % 2 == 0)
+{
+    Console.WriteLine($"{a} is an even number");
+} 
+else 
+{
+    Console.WriteLine($"{a} is an odd number");
+}
+*/
