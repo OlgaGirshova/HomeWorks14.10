@@ -48,3 +48,15 @@ else
     Console.WriteLine($"{a} is an odd number");
 }
 */
+/*
+// Задача 8. Написать программу, которая на вход принимает число (N), а на выходе показывает все четные числа от 1 дл N.
+Console.Write("Input a number ");
+int A = Convert.ToInt32(Console.ReadLine());
+int T = 0;
+
+while (T + 1 < A)
+{
+    T = T + 2;
+    Console.WriteLine($"{T}");
+}
+*/
